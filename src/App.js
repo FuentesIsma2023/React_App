@@ -5,7 +5,7 @@ import Header from './Components/Header/Header';
 import Formulario from './Components/Formulario/Formulario';
 import MiOrg from './Components/MiOrg';
 import Equipo from './Components/Equipo';
-import Footer from './Components/Footer';
+import Footer from './Components/Footer/index';
 
 function App() {
   const [mostrarFormulario, actualizarMostrar] = useState(false)
